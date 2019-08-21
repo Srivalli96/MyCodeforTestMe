@@ -9,7 +9,7 @@ import cucumber.api.junit.Cucumber;
 
 
 
-@CucumberOptions(features="C:\\Users\\training_h2a.06.15\\Desktop\\Selenium Workspace\\cucumber-2\\myfeatures\\Demoontags.feature",glue="cucumber_demo1.cucumber_2",tags= {"@Regression,@Smoke"})
+@CucumberOptions(features="C:\\Users\\training_h2a.06.15\\Desktop\\Selenium Workspace\\cucumber-2\\myfeatures\\Demoontags.feature",glue="cucumber_demo1.cucumber_2",tags= {"@Regression,@Smoke"},plugin={"html:target/cucumber-htmlreport.html","json:target/cucumber.json"})
 public class Myrunners {
 
 }
